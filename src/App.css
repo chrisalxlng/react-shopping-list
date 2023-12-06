@@ -1,0 +1,119 @@
+/* Sizes */
+.h-px {
+  height: 1px;
+}
+
+.max-w-lg {
+  max-width: 32rem; /* 512px */
+}
+
+/* Spacing */
+.m-0 {
+  margin: 0;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-2 {
+  padding: 0.5rem; /* 8px */
+}
+
+.p-4 {
+  padding: 1rem; /* 16px */
+}
+
+.py-4 {
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+}
+
+/* Colors */
+.text-grey {
+  color: #b8b8bd;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-grey {
+  background-color: #d8d9e1;
+}
+
+.hover\:bg-accent:hover {
+  background-color: #ededed;
+}
+
+.bg-danger {
+  background-color: #d3304b;
+}
+
+/* Border */
+.rounded {
+  border-radius: 0.25rem; /* 4px */
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; /* 8px */
+}
+
+.border-none {
+  border: none;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.gap-x-1\.5 {
+  column-gap: 0.375rem; /* 6px */
+}
+
+.gap-y-1\.5 {
+  row-gap: 0.375rem; /* 6px */
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem; /* 12px */
+}
+
+/* Misc */
+.list-none {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.select-none {
+  user-select: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
